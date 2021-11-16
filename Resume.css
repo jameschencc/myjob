@@ -1,0 +1,53 @@
+
+html,body{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+.box{
+    width:800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.3);
+    transition:0.3s;
+
+}
+.box:hover{
+    box-shadow: 5px 5px 60px rgba(0,0,0,0.4);
+    transform:translate(-10px ,-10px);
+}
+.top{
+    height: 300px;
+    position: relative;
+    background-image: url(https://i0.wp.com/static.popdaily.com.tw/static/article/15306/1483944051fqkzzu.png);
+    background-size:cover;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.name{
+    margin: 0;
+    bottom: 0;
+    padding: 15px 5px;
+    position: absolute;
+   
+
+}
+.bottom{
+    padding: 10px 20px 20px 20px;
+}
+.bottom h3{
+    display: inline-block;
+    margin: 0;
+}
+.bottom ul{
+    list-style:none;
+}
